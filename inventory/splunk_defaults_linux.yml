@@ -32,7 +32,7 @@ splunk:
     pid: !!python/object/apply:os.path.join [*home, "var/run/splunk/splunkd.pid"]
     admin_user: "admin"
     root_endpoint:
-    password:
+    password: "password"
     secret: 
     svc_port: 8089
     s2s_port: 9997
